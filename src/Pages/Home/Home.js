@@ -343,7 +343,7 @@ const Home = () => {
                 </Modal>
               </div>
             </div>
-            <br style={{ color: "white" }}></br>
+            <br style={{ color: "black" }}></br>
 
             {frequency === "custom" ? (
               <>

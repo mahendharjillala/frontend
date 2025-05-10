@@ -7,13 +7,13 @@ import Register from './Pages/Auth/Register';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home/Home';
 import SetAvatar from './Pages/Avatar/setAvatar';
+import Footer from "./components/Footer/Footer";
 
 
 
 const App = () => {
   return (
-    
-      <div className="App">
+    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,8 +22,9 @@ const App = () => {
           <Route path="/setAvatar" element={<SetAvatar />} />
         </Routes>
       </BrowserRouter>
-      </div>
-  )
+      <Footer />
+    </div>
+  );
 }
 
 export default App
